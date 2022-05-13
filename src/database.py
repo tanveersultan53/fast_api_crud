@@ -6,7 +6,7 @@ from sqlalchemy.sql import func
 
 from databases import Database
 
-DATABASE_URL = 'postgresql://postgres:arbisoft@localhost:5433/fastapi'
+DATABASE_URL = 'postgresql://postgres:password@localhost:port/databasename'
 # 'postgresql://postgres:<password>@localhost/<name_of_the_datbase>'
 
 # SQLAlchemy
